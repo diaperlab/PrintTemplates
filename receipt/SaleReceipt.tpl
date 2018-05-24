@@ -807,10 +807,6 @@ table.payments td.label {
 			<span class="receiptRegisterNameField"><span class="receiptRegisterNameLabel">Register: </span><span id="receiptRegisterName">{{Sale.Register.name}}</span><br /></span>
 		{% endif %}
 
-		{% if Sale.Employee %}
-			<span class="receiptEmployeeNameField"><span class="receiptEmployeeNameLabel">Employee: </span><span id="receiptEmployeeName">{{Sale.Employee.firstName}}</span><br /></span>
-		{% endif %}
-
 		{% if Sale.Customer %}
 			{% if Sale.Customer.company|strlen > 0 %}
 				<span class="receiptCompanyNameField"><span class="receiptCompanyNameLabel">Company: </span><span id="receiptCompanyName">{{Sale.Customer.company}}</span><br /></span>
