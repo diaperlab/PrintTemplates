@@ -4,7 +4,7 @@ Set any of the options in this section from 'false' to 'true' in order to enable
 #}
 
 {% set vendor_number = false %}                     {# Display Vendor ID (if available) above Description #}
-{% set show_custom_sku = false %}                   {# Display Custom SKU (if available) above Description #}
+{% set show_custom_sku = true %}                   {# Display Custom SKU (if available) above Description #}
 {% set show_manufacturer_sku = false %}             {# Display Manufacturer SKU (if available) above Description #}
 {% set show_upc_code = false %}                     {# Display the UPC code at the top of the receipt (using UPC codes in barcode does not work) #}
 {% set show_date = false %}                         {# Display today's date above description (ddmmyy formatting) #}
