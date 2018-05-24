@@ -16,11 +16,11 @@
 {% set sale_id_prefix = "" %}                       {# Adds a string of text as a prefix for the Sales ID. Ex: "S-". To be used when "sale_id_instead_of_ticket_number" is true #}
 
 {# Item Lines #}
-{% set per_line_discount = false %}                 {# Displays Discounts on each Sale Line #}
-{% set per_line_subtotal = false %}                 {# Displays Subtotals for each Sale Line (ex: "1 x $5.00") #}
+{% set per_line_discount = true %}                 {# Displays Discounts on each Sale Line #}
+{% set per_line_subtotal = true %}                 {# Displays Subtotals for each Sale Line (ex: "1 x $5.00") #}
 {% set discounted_line_items = false %}             {# Strikes out the original price and displays the discounted price on each Sale Line #}
 {% set per_line_employee = false %}                 {# Display Employee for each Sale line #}
-{% set show_custom_sku = false %}                   {# Adds SKU column for Custom SKU, if available, on each Sale Line #}
+{% set show_custom_sku = true %}                   {# Adds SKU column for Custom SKU, if available, on each Sale Line #}
 {% set show_manufacturer_sku = false %}             {# Adds SKU column for Manufacturer SKU, if available, on each Sale Line #}
 {% set show_msrp = false %}                         {# Adds MSRP column for the items MSRP, if available, on each Sale Line #}
 
